@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeCodeCamp survay form.</title>
+    <link rel='stylesheet' href='styles.css'/>
+</head>
+<body>
+      
+       <h1 id='title'>FreeCodeCamp survay form.</h1>
+        <p id='description'> Please take a moment to fill out our survey form.</p>
+    <main>
+ 
+      <form id='survey-form'>
+        <fieldset>
+ <label id='name-label' for='name'>Name
+   <input id='name' type='text' placeholder='input your name' required />
+ </label>
+ <label id='email-label' for='email'>Email
+   <input id='email' type='email'placeholder='input your email' required />
+ </label>
+ <label id='number-label' for='number'>Age
+   <input id='number' type='number' placeholder='input your age' min=18 max=30 />
+ </label>
+  
+ <label for='gender'>Gender
+   <select id='dropdown'>
+     <option value='male'>Male</option>
+     <option value='female'>Female</option>
+     <option value='other'>Other</option>
+   </select>
+   </label>
+     </fieldset>
+    <fieldset class='inline'>
+      <legend>preferred programing language:</legend>
+      <label for='js'> 
+     <input type='radio' name='radio-btn' value='javascript' id='js' /> Javascript
+   </label>
+   <label for='py'>
+     <input type='radio' name='radio-btn' value='python' id='py'/> Python
+   </label>
+ </label>
+    </fieldset>
+    <fieldset class='inline'>
+      <legend>Area for improvement:</legend>
+      <label for='front-end'>
+        <input type='checkbox' name='improvement' value='front-end' id='front-end' /> Front-end projects
+      </label>
+      <label for='back-end'>
+        <input type='checkbox' name='improvement' value='back-end' id='beck-end' /> Back-end projects
+      </label>
+       
+        <label for='data-visualization'>
+        <input type='checkbox' name='improvement' value='data-visualization' id='data-visualization' />
+        Data-visualization projects
+      </label>
+      <label for='challenges'>
+        <input type='checkbox' name='improvement' value='challenges' id='challenges' /> Challenges
+      </label>
+      <label for='DOM-manipulation-with-js'>
+        <input type='checkbox' name='improvement' value='DOM-manipulation-with-js' id='DOM-manipulation-with-js' /> DOM-manipulation-with-js
+        </label>
+      <label for='front-end-frameworks'>
+        <input type='checkbox' name='improvement' value='front-end-frameworks' id='front-end-frameworks' /> Front-end-frameworks
+      </label>
+    
+    </fieldset>
+    <fieldset>
+      <legend>suggestion</legend>
+      <textarea></textarea>
+    </fieldset>
+    <input id='submit' type='submit' value='Submit'/>
+      </form>
+    </main>
+</body>
+</html>

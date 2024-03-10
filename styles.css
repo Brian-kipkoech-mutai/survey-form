@@ -1,0 +1,110 @@
+body{
+    font-size:16px;
+    
+ 
+  }
+ h1,p{
+   text-align:center;
+   font-size:3em;
+   color :#333
+    
+  
+ }
+ p{
+   font-size:1.3em;
+ }
+ label{
+   display:block;
+   font-size: 1.3em;
+   margin:0.5em auto;
+    padding:0.5em;
+   color :#333;
+    
+   
+ }
+ input ,textarea,select{
+   width:100%;
+   border-radius:0.5em;
+   /* margin:1em; */
+   border: 1px solid #ccc;
+    
+ }
+ input{
+   padding:0.1em;
+   font-size:0.8em;
+   padding-left :0.5em;
+   outline-color:#82a9d3 ;
+   margin-top: 0.5em;
+   
+ }
+ select{
+   padding-left:1em;
+     font-size:0.8em;
+     outline-color:#82a9d3 ;
+     min-width: 300px;
+     padding:0.5em;
+ 
+ }
+ .inline input{
+   width:unset;
+   vertical-align:middle;
+   margin:unset;
+   margin-left:1em;
+    
+     
+ }
+ .inline label{
+ font-size:1.2em; 
+  margin:0;
+  padding:0;
+  
+    }
+ legend{
+ font-size:1.7em;
+  
+ }
+ input,select{
+   height:2.5em;
+ }
+ fieldset{
+   border:none;
+ }
+ textarea{
+   height:10em;
+ }
+ input[type='submit']{
+   width:60%;
+   min-width:300px;
+   margin: 2em auto;
+   display:block;
+   font-size:1.2em;
+   background:linear-gradient(90deg,#82a9d3, #f0f0f000,#82a9d3);
+   border:none;
+   cursor:pointer;
+ 
+   
+ }
+ input:active,
+ select:focus,
+ textarea:focus {
+     border-image: linear-gradient(90deg,#82a9d3,#f2f2f2);;
+ }
+  
+ main{
+    width:70vw;
+   margin:2em auto;
+   max-width:600px;
+   min-width:300px;
+   background:linear-gradient(#82a9d3,#f2f2f291);
+   padding-bottom:1px;
+   padding:2em;
+   border-radius :2em;
+   box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ body{
+    /* background-color: #f2f2f2; */
+    background:linear-gradient(#f2f2f2,#82a9d3)
+    
+ 
+ }
+ 
